@@ -12,3 +12,6 @@ $ wget https://github.com/PhDLeToanThang/wireguard -O install_openvpn.sh
 hoặc
 
 wget https://raw.githubusercontent.com/PhDLeToanThang/wireguard/master/install_openvpn.sh && sudo bash install_openvpn.sh
+
+command on terminal of Ubuntu linux
+![image](https://user-images.githubusercontent.com/106635733/180014460-78e6a923-5373-4cbb-b955-0eadc02b74d2.png)
