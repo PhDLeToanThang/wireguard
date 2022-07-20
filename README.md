@@ -29,3 +29,4 @@ hoặc
 wget https://raw.githubusercontent.com/PhDLeToanThang/wireguard/master/install-pritunl.sh && sudo bash install-pritunl.sh
 
 command on terminal of Ubuntu linux
+![image](https://user-images.githubusercontent.com/106635733/180023153-24953c71-3370-4c1c-a219-9505e4eebbe3.png)
