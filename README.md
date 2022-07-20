@@ -8,3 +8,7 @@ Download install_openvpn.sh script to set up OpenVPN server in 5 minutes on Ubun
 
 Type the following wget command or curl command:
 $ wget https://github.com/PhDLeToanThang/wireguard -O install_openvpn.sh
+
+hoặc
+
+wget https://raw.githubusercontent.com/PhDLeToanThang/wireguard/master/install_openvpn.sh && sudo bash install_openvpn.sh
