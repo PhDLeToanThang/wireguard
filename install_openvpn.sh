@@ -45,17 +45,17 @@ This version of Ubuntu is too old and unsupported."
 	exit
 fi
 
-if [[ "$os" == "ubuntu" && "$os_version" -lt 2004 ]]; then
-	echo "Ubuntu 20.04 or higher is required to use this installer.
-This version of Ubuntu is too old and unsupported."
-	exit
-fi
+#if [[ "$os" == "ubuntu" && "$os_version" -lt 2004 ]]; then
+#	echo "Ubuntu 20.04 or higher is required to use this installer.
+#This version of Ubuntu is too old and unsupported."
+#	exit
+#fi
 
-if [[ "$os" == "ubuntu" && "$os_version" -lt 2204 ]]; then
-	echo "Ubuntu 22.04 or higher is required to use this installer.
-This version of Ubuntu is too old and unsupported."
-	exit
-fi
+#if [[ "$os" == "ubuntu" && "$os_version" -lt 2204 ]]; then
+#	echo "Ubuntu 22.04 or higher is required to use this installer.
+#This version of Ubuntu is too old and unsupported."
+#	exit
+#fi
 
 if [[ "$os" == "debian" && "$os_version" -lt 9 ]]; then
 	echo "Debian 9 or higher is required to use this installer.
@@ -63,34 +63,34 @@ This version of Debian is too old and unsupported."
 	exit
 fi
 
-if [[ "$os" == "debian" && "$os_version" -lt 10 ]]; then
-	echo "Debian 10 or higher is required to use this installer.
-This version of Debian is too old and unsupported."
-	exit
-fi
+#if [[ "$os" == "debian" && "$os_version" -lt 10 ]]; then
+#	echo "Debian 10 or higher is required to use this installer.
+#This version of Debian is too old and unsupported."
+#	exit
+#fi
 
-if [[ "$os" == "debian" && "$os_version" -lt 11 ]]; then
-	echo "Debian 11 or higher is required to use this installer.
-This version of Debian is too old and unsupported."
-	exit
-fi
+#if [[ "$os" == "debian" && "$os_version" -lt 11 ]]; then
+#	echo "Debian 11 or higher is required to use this installer.
+#This version of Debian is too old and unsupported."
+#	exit
+#fi
 if [[ "$os" == "centos" && "$os_version" -lt 7 ]]; then
 	echo "CentOS 7 or higher is required to use this installer.
 This version of CentOS is too old and unsupported."
 	exit
 fi
 
-if [[ "$os" == "centos" && "$os_version" -lt 8 ]]; then
-	echo "CentOS 8 or higher is required to use this installer.
-This version of CentOS is too old and unsupported."
-	exit
-fi
+#if [[ "$os" == "centos" && "$os_version" -lt 8 ]]; then
+#	echo "CentOS 8 or higher is required to use this installer.
+#This version of CentOS is too old and unsupported."
+#	exit
+#fi
 
-if [[ "$os" == "centos" && "$os_version" -lt 9 ]]; then
-	echo "CentOS 9 or higher is required to use this installer.
-This version of CentOS is too old and unsupported."
-	exit
-fi
+#if [[ "$os" == "centos" && "$os_version" -lt 9 ]]; then
+#	echo "CentOS 9 or higher is required to use this installer.
+#This version of CentOS is too old and unsupported."
+#	exit
+#fi
 
 # Detect environments where $PATH does not include the sbin directories
 if ! grep -q sbin <<< "$PATH"; then
