@@ -7,9 +7,9 @@ _openVPN và WireGuard Server for Business Small/ Site to Site / Point to Site:_
 # Download install_pritunl.sh script to set up OpenVPN server in 5 minutes on Ubuntu 24.04 LTS server 
 ##############################################################################################################
 Type the following wget command or curl command:
-$ wget https://github.com/PhDLeToanThang/wireguard -O install_pritunl.sh
+$ wget https://github.com/PhDLeToanThang/wireguard -O setup_pritunl2026.sh
 hoặc
-wget https://raw.githubusercontent.com/PhDLeToanThang/wireguard/master/install_pritunl.sh && sudo bash install_pritunl.sh
+wget https://raw.githubusercontent.com/PhDLeToanThang/wireguard/refs/heads/master/setup_pritunl2026.sh && sudo bash setup_pritunl2026.sh
 ```
 
 ## 1. OpenVPN (old): 
