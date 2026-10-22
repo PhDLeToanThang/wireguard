@@ -39,7 +39,7 @@ die()   { err "$1"; exit 1; }
 #------------------------------- Trợ giúp -------------------------------------
 usage() {
     cat <<'USAGE'
-Sử dụng: sudo bash install-pritunl.sh [TÙY CHỌN]
+Sử dụng: sudo bash setup_pritunl2026.sh [TÙY CHỌN]
 
 Tùy chọn:
   --domain <fqdn>     Tên miền để cấp SSL tự động từ Let's Encrypt (vd: vpn.example.com)
@@ -50,8 +50,8 @@ Tùy chọn:
   -h, --help          Hiển thị trợ giúp này
 
 Ví dụ:
-  sudo bash install-pritunl.sh
-  sudo bash install-pritunl.sh --domain vpn.example.com --wg-port 16000 --vpn-ports 10000
+  sudo bash setup_pritunl2026.sh
+  sudo bash setup_pritunl2026.sh --domain vpn.example.com --wg-port 16000 --vpn-ports 10000
 USAGE
 }
 
