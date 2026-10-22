@@ -1,3 +1,8 @@
+##############################################################################
+# https://docs.pritunl.com/docs/installation   ## [Other Providers] Ubuntu 24.04
+# Setup Pritunl server trên ubuntu 24.04 LTS 
+################################################################
+
 sudo tee /etc/apt/sources.list.d/mongodb-org.list << EOF
 deb [ signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/ubuntu noble/mongodb-org/8.0 multiverse
 EOF
